@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="facebook_foreground">#FFF</color>
+    <color name="facebook_background">#1778f2</color>
+    <color name="github_foreground">#FFF</color>
+    <color name="github_background">#000</color>
+    <color name="telegram_foreground">#FFF</color>
+    <color name="telegram_background">#3AE</color>
+
+</resources>
