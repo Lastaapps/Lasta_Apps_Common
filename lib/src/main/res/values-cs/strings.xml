@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="content_description_facebook">Facebooková stránky autora</string>
-    <string name="content_description_github">Github repozitář vývojáře</string>
+    <string name="content_description_github">Github rprojekt vývojáře</string>
     <string name="content_description_play_store">Další aplikace od vývojářě</string>
     <string name="content_description_telegram">Kontakt na vývojáře na platformě telegram</string>
+    <string name="content_description_github_project">Zdrojový kód projektu na Githubu</string>
 </resources>

@@ -3,7 +3,8 @@
     <string name="developer_name_date" translatable="false">Lasta apps %s</string>
 
     <string name="content_description_facebook">The developer\'s Facebook page</string>
-    <string name="content_description_github">The developer\'s Github repository</string>
+    <string name="content_description_github">The developer\'s Github profile</string>
+    <string name="content_description_github_project">The project\'s source code Github repository</string>
     <string name="content_description_play_store">The other apps by the app\'s developer</string>
     <string name="content_description_telegram">The contact to the app\'s developer using Telegram</string>
 

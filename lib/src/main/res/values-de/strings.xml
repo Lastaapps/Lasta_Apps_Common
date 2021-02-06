@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="content_description_facebook">The developer\'s Github repository</string>
-    <string name="content_description_github">Das Github-Repository des Entwicklers</string>
+    <string name="content_description_github">Das Github-Profil des Entwicklers</string>
     <string name="content_description_play_store">Die anderen Apps vom App-Entwickler</string>
     <string name="content_description_telegram">Der Kontakt zum Entwickler der App über Telegramm</string>
+    <string name="content_description_github_project">Das Quellcode-Github-Repository des Projekts</string>
 </resources>
