@@ -14,13 +14,11 @@ object Communication {
     private const val facebookUrl = "https://www.facebook.com/lastaapps/"
     private const val githubUrl = "https://github.com/lastaapps/"
     private const val telegramUrl = "https://t.me/lasta_apps"
+    private const val playStoreUrl = "https://play.google.com/store/apps/dev?id=8043580628539311707"
 
-    //TODO app play store link
-    private const val playStoreUrl =
-        "https://play.google.com/store/apps/dev?id=XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
+    fun openFacebook(context: Context) = openFacebookPage(context, facebookUrl)
 
-    fun openFacebook(context: Context) {
-        val url = facebookUrl
+    fun openFacebookPage(context: Context, url: String) {
         var uri = Uri.parse(url)
         try {
             val applicationInfo =
@@ -106,11 +104,12 @@ object Communication {
             return LayerDrawable(arrayOf(fDrawable, bDrawable))
         }
 
-        private fun loadDrawable(context: Context, id: Int, tint: Int?) =
-            VectorDrawableCompat.create(context.resources, id, context.theme)!!.apply {
+        private fun loadDrawable(context: Context, id: Int, tint: Int?): VectorDrawableCompat {
+            return VectorDrawableCompat.create(context.resources, id, context.theme)!!.apply {
                 tint?.let {
                     setTint(it)
                 }
             }
+        }
     }
 }
