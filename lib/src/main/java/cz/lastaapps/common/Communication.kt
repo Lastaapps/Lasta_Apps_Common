@@ -38,7 +38,7 @@ object Communication {
         openUrl(context, "$githubUrl$name/")
 
     fun openProjectsCommits(context: Context, name: String) =
-        openUrl(context, "$githubUrl$name/commit/")
+        openUrl(context, "$githubUrl$name/commits/")
 
     fun openTelegram(context: Context) = openUrl(context, telegramUrl)
 
