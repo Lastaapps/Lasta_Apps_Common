@@ -8,11 +8,10 @@ android {
     buildToolsVersion "30.0.3"
 
     defaultConfig {
-        //applicationId "cz.lastaapps.common"
         minSdkVersion 21
         targetSdkVersion 30
-        versionCode 1000400
-        versionName "1.0.4"
+        versionCode 10005
+        versionName "1.0.5"
 
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
 
@@ -36,7 +35,6 @@ android {
         }
     }
     compileOptions {
-        // Flag to enable support for the new language APIs
         coreLibraryDesugaringEnabled true
 
         sourceCompatibility JavaVersion.VERSION_1_8
