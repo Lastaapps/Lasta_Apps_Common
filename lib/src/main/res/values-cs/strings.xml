@@ -11,4 +11,6 @@
     <string name="content_description_play_store">Další aplikace od vývojářě</string>
     <string name="content_description_telegram">Kontakt na vývojáře na platformě Telegram</string>
     <string name="content_description_github_project">Zdrojový kód projektu na Githubu</string>
+
+    <string name="thanks_review">Děkujeme za vaše hodnocení!</string>
 </resources>

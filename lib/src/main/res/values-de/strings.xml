@@ -11,4 +11,6 @@
     <string name="content_description_play_store">Die anderen Apps vom App-Entwickler</string>
     <string name="content_description_telegram">Der Kontakt zum Entwickler der App über Telegramm</string>
     <string name="content_description_github_project">Das Quellcode-Github-Repository des Projekts</string>
+
+    <string name="thanks_review">Vielen Dank für Ihre Bewertung!</string>
 </resources>

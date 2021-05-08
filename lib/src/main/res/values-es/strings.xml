@@ -11,4 +11,6 @@
     <string name="content_description_play_store">The contact to the app\'s developer using Telegram</string>
     <string name="content_description_telegram">El contacto con el desarrollador de la aplicación que usa Telegram</string>
     <string name="content_description_github_project">El repositorio de Github del código fuente del proyecto</string>
+
+    <string name="thanks_review">¡Gracias por tu reseña!</string>
 </resources>
