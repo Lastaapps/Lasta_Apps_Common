@@ -49,6 +49,7 @@ object App {
         .toLocalDate()
         .format(DateTimeFormatter.ISO_DATE)
 
+    const val APP_ID = "cz.lastaapps.common.app"
     const val VERSION_CODE = 1020000
     const val VERSION_NAME = "1.2.0"
 
