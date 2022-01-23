@@ -1,6 +1,8 @@
 plugins {
     id("com.android.library")
     id("kotlin-android")
+
+    id("maven-publish")
 }
 
 android {
@@ -49,4 +51,39 @@ dependencies {
     implementation(Libs.MATERIAL)
     implementation(Libs.PLAY_SERVICES)
 
+}
+project.afterEvaluate {
+    this.publishing.publications {
+        create<MavenPublication>("release") {
+            groupId = "cz.lastaapps.common"
+            artifactId = "common"
+            version = "1.3.0"
+
+            from(components["release"])
+
+            pom {
+                name.set("Lasta Apps Common")
+                description.set("Helper classes and resources")
+                url.set("http://github.com/Lastaapps/Lasta_Apps_Common")
+                licenses {
+                    license {
+                        name.set("MIT")
+                        url.set("https://github.com/Lastaapps/Lasta_Apps_Common/blob/main/LICENSE")
+                    }
+                }
+                developers {
+                    developer {
+                        id.set("Lasta Apps")
+                        name.set("Petr Laštovička")
+                        email.set("lastaappsdev@gmail.com")
+                    }
+                }
+                scm {
+                    connection.set("scm:git:git://github.com/Lastaapps/Lasta_Apps_Common.git")
+                    developerConnection.set("scm:git:ssh://github.com/Lastaapps/Lasta_Apps_Common.git")
+                    url.set("http://github.com/Lastaapps/Lasta_Apps_Common/")
+                }
+            }
+        }
+    }
 }

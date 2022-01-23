@@ -1,5 +1,7 @@
 # Lasta apps common
 
+[![Release](https://jitpack.io/v/Lastaapps/Lasta_Apps_Common.svg)](https://jitpack.io/#Lastaapps/Lasta_Apps_Common)
+
 This repo contains the functionality common to the most of Lasta apps projects.
 
 ### Features
