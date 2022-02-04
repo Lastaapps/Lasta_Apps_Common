@@ -1,21 +1,11 @@
 // Top-level build file where you can add configuration options common to all sub-projects/modules.
 buildscript {
-
-    repositories {
-        google()
-        mavenCentral()
-    }
-    dependencies {
-        classpath("com.android.tools.build:gradle:${Versions.GRADLE}")
-        classpath("org.jetbrains.kotlin:kotlin-gradle-plugin:${Versions.KOTLIN}")
-    }
 }
 
-allprojects {
-    repositories {
-        google()
-        mavenCentral()
-    }
+plugins {
+    id(Plugins.APPLICATION) version Versions.GRADLE apply false
+    id(Plugins.LIBRARY) version Versions.GRADLE apply false
+    id(Plugins.KOTLIN) version Versions.KOTLIN apply false
 }
 
 // Caused errors on JitPack
