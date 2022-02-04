@@ -1,7 +1,7 @@
 package cz.lastaapps.common
 
 import android.content.Context
-import java.time.*
+import java.time.LocalDate
 import java.time.format.DateTimeFormatter
 
 object DeveloperInfo {

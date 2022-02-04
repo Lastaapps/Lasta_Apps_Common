@@ -17,8 +17,6 @@ android {
         consumerProguardFiles("consumer-rules.pro")
 
         multiDexEnabled = true
-
-        buildConfigField("java.lang.String", "BUILD_DATE", "\"${App.buildDate}\"")
     }
 
     buildTypes {
@@ -39,7 +37,7 @@ android {
         jvmTarget = Versions.JVM_TARGET
     }
     buildFeatures {
-        buildConfig = true
+        buildConfig = false
     }
 }
 
@@ -57,13 +55,13 @@ project.afterEvaluate {
         create<MavenPublication>("release") {
             groupId = "cz.lastaapps.common"
             artifactId = "common"
-            version = "1.3.0"
+            version = App.artifactVersion
 
             from(components["release"])
 
             pom {
-                name.set("Lasta Apps Common")
-                description.set("Helper classes and resources")
+                name.set("Lasta Apps Play Services")
+                description.set("Helper classes for working with Play Services")
                 url.set("http://github.com/Lastaapps/Lasta_Apps_Common")
                 licenses {
                     license {

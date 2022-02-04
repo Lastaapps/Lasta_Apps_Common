@@ -17,4 +17,5 @@ dependencyResolutionManagement {
 rootProject.name = "Lasta Apps Common"
 
 include(":app")
-include(":lib")
+include(":common")
+include(":playservices")

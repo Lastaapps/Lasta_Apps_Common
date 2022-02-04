@@ -41,7 +41,8 @@ android {
 
 dependencies {
 
-    implementation(project(":lib"))
+    implementation(project(":common"))
+    implementation(project(":playservices"))
 
     implementation(Libs.APPCOMPAT)
     implementation(Libs.MATERIAL)

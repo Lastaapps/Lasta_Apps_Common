@@ -1,5 +1,5 @@
 
-package cz.lastaapps.common
+package cz.lastaapps.playservices
 
 import android.annotation.SuppressLint
 import android.app.Activity
